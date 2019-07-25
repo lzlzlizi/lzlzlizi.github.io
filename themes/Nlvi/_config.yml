@@ -48,7 +48,7 @@ toc: true
 
 # Use copyright infomation
 copyright:
-  enable: true
+  enable: false
   # license: 
 
 #Reword button or message(fill your QRCode of any Pay.)
@@ -66,7 +66,7 @@ reward:
 
 # Comments // Please only switch one on.
 comments: 
-  enable: true
+  enable: false
 
   # disqus: 
   # livere_datauid:
@@ -117,7 +117,7 @@ mathjax: true
 lightbox: true
 
 # lazyload
-lazyload: false
+lazyload: true
 
 # animate (Powered by Syuanpi on https://colmugx.github.io/Syuanpi.css)
 animate: true

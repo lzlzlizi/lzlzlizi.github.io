@@ -1,0 +1,34 @@
+*
+  outline none
+  box-sizing border-box
+
+::-webkit-scrollbar
+  width 6px
+  height 1px
+
+::-webkit-scrollbar-track
+::-webkit-scrollbar-thumb
+  border-radius 3px
+  background-color $theme-color-selection
+
+::-webkit-scrollbar-thumb
+  background-color $theme-color-selection-highlight
+
+::selection
+  background-color rgba($theme-color-main, .2)
+
+::-webkit-selection
+  background-color rgba($theme-color-main, .2)
+
+body
+  font-family $article-fonts
+  -webkit-font-smoothing antialiased
+  -webkit-overflow-scrolling touch
+  background-color $global-setting['background']
+
+a
+  -webkit-tap-highlight-color transparent
+
+for $k, $v in $heading-list
+  {$k}
+    font-size $v

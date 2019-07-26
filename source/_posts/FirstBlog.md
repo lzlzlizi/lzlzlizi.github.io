@@ -9,7 +9,9 @@ tags:
 A quick guide to remind you how to set up a github page.
 
 <!-- more -->
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29829683&auto=1&height=66"></iframe>
+
 1. 创建仓库 ....io
 2. 创建两个分支：master 与 hexo, 设置hexo为默认分支
 3. 使用git clone 拷贝仓库

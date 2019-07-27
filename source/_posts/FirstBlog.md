@@ -4,6 +4,7 @@ date: 2019-07-25 13:06:10
 tags: 
     - trivial
     - little tips
+mathjax: true
 ---
 
 A quick guide to remind you how to set up a github page.
@@ -24,3 +25,9 @@ A quick guide to remind you how to set up a github page.
 6. 生成网页 hexo g -d
 
 
+## math inline
+
+change the renderer to:
+```
+npm i hexo-renderer-markdown-it-plus --save
+```

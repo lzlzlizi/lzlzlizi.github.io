@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang>
 <head><meta name="generator" content="Hexo 3.9.0">
-  <link rel="stylesheet" href="../../../../style/style.css">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><link rel="stylesheet" href="../../../../style/style.css">
 <script>
   var nlviconfig = {
     title: "Sardonic",
@@ -35,6 +35,17 @@
 
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98059014-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144677108-1');
+</script>
+
+
 
 
 
@@ -58,12 +69,12 @@
 
 
 
-  <meta name="keywords" content="little tips, trivial, Nlvi">
+  <meta name="keywords" content="trivial, little tips, Nlvi">
 
-  <title> FirstBlog · Sardonic </title>
+  <title> FirstBlog · Sardonic </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 <body>
-  <div class="progress">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="progress">
   <div class="progress-inner"></div>
 </div>
 
@@ -161,7 +172,7 @@
     <span class="title" id="toc-switch"><span>Index</span></span>
     <div class="toc-inner syuanpi back-1" style="display:none;">
       <li class="title-link"><a href="javascript:;" class="toTop">FirstBlog</a></li>
-      
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#math-inline"><span class="toc-text"> math inline</span></a></li></ol>
     </div>
   </aside>
 
@@ -241,6 +252,9 @@
           
     
   
+    <script src="https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"], ["\\(","\\)"]]}});</script>
+  
   <article class="
   post
    is_post 
@@ -254,9 +268,9 @@
             
               <aside class="post-tags syuanpi fadeInUpShort back-3">
               
-                <a href="../../../../tags/little-tips/">little tips</a>
-              
                 <a href="../../../../tags/trivial/">trivial</a>
+              
+                <a href="../../../../tags/little-tips/">little tips</a>
               
               </aside>
             
@@ -273,24 +287,25 @@
       
         <p>A quick guide to remind you how to set up a github page.</p>
 <a id="more"></a>
-
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29829683&auto=1&height=66"></iframe>
-
 <ol>
-<li>创建仓库 ….io</li>
+<li>创建仓库 …io</li>
 <li>创建两个分支：master 与 hexo, 设置hexo为默认分支</li>
 <li>使用git clone 拷贝仓库</li>
-<li>在….io文件夹下通过<ol>
+<li>在…io文件夹下通过
+<ol>
 <li>npm install hexo</li>
 <li>hexo init（要空文件夹，所以先mkdir temp 然后在temp 中执行再 移到io文件夹中）</li>
-<li>npm install </li>
+<li>npm install</li>
 <li>npm install hexo-deployer-git</li>
 </ol>
 </li>
 <li>同步源文件git add .、git commit -m “…”、<strong>git push origin hexo</strong></li>
 <li>生成网页 hexo g -d</li>
 </ol>
-
+<h2 id="math-inline"><a class="markdownIt-Anchor" href="#math-inline"></a> math inline</h2>
+<p>change the renderer to:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-renderer-markdown-it-plus --save</span><br></pre></td></tr></table></figure>
       
     
     </div>
@@ -467,7 +482,7 @@
       </div>
       <div id="local-search-result"></div>
     </div>
-  </div>
+  </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 
 </body>

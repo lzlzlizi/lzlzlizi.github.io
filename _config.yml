@@ -97,6 +97,11 @@ heading_index:
   global_suffix: ". "
 
 
+mathjax:
+  enable: true
+  per_page: false
+
+
 
 plugins:
   -hexo-generator-robotstxt

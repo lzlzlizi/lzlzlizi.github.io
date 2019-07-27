@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang>
 <head><meta name="generator" content="Hexo 3.9.0">
-  <link rel="stylesheet" href="../style/style.css">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><link rel="stylesheet" href="../style/style.css">
 <script>
   var nlviconfig = {
     title: "Sardonic",
@@ -73,10 +73,10 @@
   
     Archives · Sardonic
   
-</title>
+</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 <body>
-  <div class="progress">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="progress">
   <div class="progress-inner"></div>
 </div>
 
@@ -438,7 +438,24 @@
       </div>
       <div id="local-search-result"></div>
     </div>
-  </div>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 
 </body>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang>
 <head><meta name="generator" content="Hexo 3.9.0">
-  <link rel="stylesheet" href="../../../../style/style.css">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><link rel="stylesheet" href="../../../../style/style.css">
 <script>
   var nlviconfig = {
     title: "Sardonic",
@@ -69,12 +69,12 @@
 
 
 
-  <meta name="keywords" content="trivial, little tips, Nlvi">
+  <meta name="keywords" content="little tips, trivial, Nlvi">
 
-  <title> FirstBlog · Sardonic </title>
+  <title> FirstBlog · Sardonic </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 <body>
-  <div class="progress">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="progress">
   <div class="progress-inner"></div>
 </div>
 
@@ -252,6 +252,9 @@
           
     
   
+    <script src="https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"], ["\\(","\\)"]]}});</script>
+  
   <article class="
   post
    is_post 
@@ -265,9 +268,9 @@
             
               <aside class="post-tags syuanpi fadeInUpShort back-3">
               
-                <a href="../../../../tags/trivial/">trivial</a>
-              
                 <a href="../../../../tags/little-tips/">little tips</a>
+              
+                <a href="../../../../tags/trivial/">trivial</a>
               
               </aside>
             
@@ -301,6 +304,7 @@
 <li>同步源文件git add .、git commit -m “…”、<strong>git push origin hexo</strong></li>
 <li>生成网页 hexo g -d</li>
 </ol>
+<p>$math test$<br>$$\inf hh $$</p>
 
       
     
@@ -478,7 +482,24 @@
       </div>
       <div id="local-search-result"></div>
     </div>
-  </div>
+  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 
 
 </body>

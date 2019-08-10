@@ -69,9 +69,9 @@
 
 
 
-  <meta name="keywords" content="trivial, little tips, Nlvi">
+  <meta name="keywords" content="Psychology, To A Productive Mind, R - shiny, Nlvi">
 
-  <title> FirstBlog · Sardonic </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> FeelingGood · Sardonic </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 <body>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="progress">
@@ -171,8 +171,8 @@
   <aside class="post-toc">
     <span class="title" id="toc-switch"><span>Index</span></span>
     <div class="toc-inner syuanpi back-1" style="display:none;">
-      <li class="title-link"><a href="javascript:;" class="toTop">FirstBlog</a></li>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#math-inline"><span class="toc-text"> math inline</span></a></li></ol>
+      <li class="title-link"><a href="javascript:;" class="toTop">FeelingGood</a></li>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#find-the-root-of-your-unrealistic-thinking"><span class="toc-text"> Find the root of your unrealistic thinking</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#das-test"><span class="toc-text"> DAS Test</span></a></li></ol></li></ol>
     </div>
   </aside>
 
@@ -252,9 +252,6 @@
           
     
   
-    <script src="https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"], ["\\(","\\)"]]}});</script>
-  
   <article class="
   post
    is_post 
@@ -262,15 +259,17 @@
     <header class="post-header">
       <div class="post-time syuanpi fadeInUpShort back-1">
         <div class="post-time-wrapper">
-          <span>2019-07-25</span>
+          <span>2019-08-10</span>
           
           
             
               <aside class="post-tags syuanpi fadeInUpShort back-3">
               
-                <a href="../../../../tags/trivial/">trivial</a>
+                <a href="../../../../tags/Psychology/">Psychology</a>
               
-                <a href="../../../../tags/little-tips/">little tips</a>
+                <a href="../../../../tags/To-A-Productive-Mind/">To A Productive Mind</a>
+              
+                <a href="../../../../tags/R-shiny/">R - shiny</a>
               
               </aside>
             
@@ -279,33 +278,57 @@
       </div>
       <h1 class="post-title syuanpi fadeInUpShort back-2">
         
-          FirstBlog
+          FeelingGood
         
       </h1>
     </header>
     <div class="post-content syuanpi fadeInUpShort back-3">
       
-        <p>A quick guide to remind you how to set up a github page.</p>
+        <p>For some reason, I began to read the book <em>Feeling Good -The New Mood Therapy</em> by Dr. David D. Burns. It was supposed to be finished before April this year, however, like many other things, it was procrastinated until now. This page will contain tips that I think will be useful and some related resources.</p>
+<p>When I write this, I have read almost half of the book. Thus, I will write from what I am reading right now, and make it up if I still willing to to after my first editing.</p>
 <a id="more"></a>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29829683&auto=1&height=66"></iframe>
+<p>In a short sentence, when you feel <strong>down</strong> in a destructive way, most likely, you are tortured by your <strong>distorted unrealistic thoughts</strong>. So, when if you can beat it, you will calm down to do something important, something that will change the world and make it a better place.</p>
+<h2 id="find-the-root-of-your-unrealistic-thinking"><a class="markdownIt-Anchor" href="#find-the-root-of-your-unrealistic-thinking"></a> Find the root of your unrealistic thinking</h2>
+<p>Your problem may resulted form some nonsense that sounds like truth. For example, here are some popular ones:</p>
 <ol>
-<li>创建仓库 …io</li>
-<li>创建两个分支：master 与 hexo, 设置hexo为默认分支</li>
-<li>使用git clone 拷贝仓库</li>
-<li>在…io文件夹下通过
-<ol>
-<li>npm install hexo</li>
-<li>hexo init（要空文件夹，所以先mkdir temp 然后在temp 中执行再 移到io文件夹中）</li>
-<li>npm install</li>
-<li>npm install hexo-deployer-git</li>
+<li>“If someone criticizes me, I feel miserable because this automatically means there is something wrong with me.”</li>
+<li>“To be a truly fulfilled human being, I must be loved. If I am alone, I am bound to be lonely and miserable.”</li>
+<li>“My worth as a human being is proportional to what I’ve achieved.”</li>
+<li>“If I don’t perform (or feel or act) perfectly, I have failed.”</li>
 </ol>
-</li>
-<li>同步源文件git add .、git commit -m “…”、<strong>git push origin hexo</strong></li>
-<li>生成网页 hexo g -d</li>
-</ol>
-<h2 id="math-inline"><a class="markdownIt-Anchor" href="#math-inline"></a> math inline</h2>
-<p>change the renderer to:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-renderer-markdown-it-plus --save</span><br></pre></td></tr></table></figure>
+<p>There are two methods offered by the author that can help you find there. The first one is keeping asking yourself why, and find the untenable logic chain. And the other one is DAS test.</p>
+<h3 id="das-test"><a class="markdownIt-Anchor" href="#das-test"></a> DAS Test</h3>
+<p>The Dysfunctional Attitude Scale (DAS) test will help you find your mental weakness, which can lead to your automatic negative thinking.</p>
+<p>I have written a simple <a href="https://lzlzlizi.shinyapps.io/dastest/" target="_blank" rel="noopener">Shiny App</a> for this, you can reach it by clicking the super-link “Shiny App”. Source code is on the <a href="https://github.com/lzlzlizi/LearnShiny/tree/master/DAStest" target="_blank" rel="noopener">github</a>.</p>
+<p>For example(random selected), after you have selected answers of  all thirty-five questions, you will see a table like:</p>
+<table>
+<thead>
+<tr>
+<th>Approval</th>
+<th>Love</th>
+<th>Achievement</th>
+<th>Perfectionism</th>
+<th>Entitlement</th>
+<th>Omnipotence</th>
+<th>Autonomy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.00</td>
+<td>-5.00</td>
+<td>-1.00</td>
+<td>1.00</td>
+<td>1.00</td>
+<td>0.00</td>
+<td>4.00</td>
+</tr>
+</tbody>
+</table>
+<p>And a figure like this:</p>
+<p><img src="DSAtest.png" alt="DSA Test result example"></p>
+<p>Positive number indicates your strangeness and negative numbers indicates your weakness in seven different aspects. For simplicity, I won’t copy the detailed explanation, but you can find it <a href="http://themathersclinic.com/wp-content/uploads/2018/pdfs/Mathers-Clinic-Dysfunctional-Attitude-Scale.pdf" target="_blank" rel="noopener">here</a>.</p>
+
       
     
     </div>
@@ -319,12 +342,12 @@
     
   <nav class="article-page">
     
-      <a href="../Something1/" id="art-left" class="art-left">
-        <span class="next-title">
-          <i class="iconfont icon-left"></i>Something Lingering in My mind
+    
+      <a href="../../../07/25/Something1/" id="art-right" class="art-right">
+        <span class="prev-title"> 
+          Something Lingering in My mind<i class="iconfont icon-right"></i>  
         </span>
       </a>
-    
     
   </nav>
 

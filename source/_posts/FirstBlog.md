@@ -31,3 +31,14 @@ change the renderer to:
 ```
 npm i hexo-renderer-markdown-it-plus --save
 ```
+
+## How to setup tf1.14
+
+1. make sure kernel is around 5.01?? (really necessary??)
+2. download cuda-toolkit 10.0, and responding cudnn from nvidia website
+3. dpkg local deb file
+4. add key according to the instruction on the website
+5. install cuda-10-0 according to the instruction on the website
+6. bingo!
+7. F**K TENSORFLOW, pytorch is the right thing to go!!!
+

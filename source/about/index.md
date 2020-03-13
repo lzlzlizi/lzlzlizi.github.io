@@ -3,12 +3,9 @@ title: About Me
 ---
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=411356640&auto=1&height=66"></iframe>
-
 # About Me 
 
 **Who I am?** That is a interesting question, because I haven't know yet. 
-
-For a short time, I began to think "revenge"-energy used to power me-is stupid, give it up, and let the nonconfidence in other field impact my academic dream. But, now, I think revenge is not that despicable and is reasonable to me. Also, it is not wise to live in the fantasy, instead, I need to walk towards my dream(And fly or run whenever I want to).
 
 # Some statements
 
